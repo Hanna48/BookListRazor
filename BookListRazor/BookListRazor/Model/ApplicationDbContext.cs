@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BookListRazor.Model
 {
-    public class ApplictionDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplictionDbContext(DbContextOptions<ApplictionDbContext> options) : base(options){}
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options){}
         public DbSet<Book> Book { get; set; }
     }
 }

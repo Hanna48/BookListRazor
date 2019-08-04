@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BookListRazor.Migrations
 {
-    [DbContext(typeof(ApplictionDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20190803080116_AddBookToDatabase")]
     partial class AddBookToDatabase
     {
